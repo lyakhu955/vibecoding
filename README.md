@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/lyakhu955/vibecoding/master/.github/banner.svg" alt="vibecoding banner" width="100%">
+  <img src="https://raw.githubusercontent.com/lyakhu955/vibecoding/master/.github/banner.png" alt="vibecoding banner" width="100%">
   <br /><br />
 
   <h1>🎨 vibecoding</h1>
