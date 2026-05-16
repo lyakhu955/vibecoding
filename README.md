@@ -1,132 +1,245 @@
-# vibecoding
+<div align="center">
+  <br />
+  <img src="https://raw.githubusercontent.com/lyakhu955/vibecoding/master/.github/banner.svg" alt="vibecoding banner" width="100%">
+  <br /><br />
 
-![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![GSAP](https://img.shields.io/badge/GSAP-3-88CE02?style=flat-square&logo=greensock&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-r168-black?style=flat-square&logo=three.js)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-white?style=flat-square)
+  <h1>🎨 vibecoding</h1>
+  <p>
+    <b>A motion-first Next.js template for building Awwwards-level websites.</b><br/>
+    Pre-wired animations, WebGL, smooth scroll & production-ready UI primitives.
+  </p>
 
-**A motion-first Next.js template for building Awwwards-level websites.**
+  <!-- Badges Row 1 -->
+  <a href="https://github.com/lyakhu955/vibecoding/stargazers">
+    <img src="https://img.shields.io/github/stars/lyakhu955/vibecoding?style=for-the-badge&logo=github&color=facc15" alt="Stars">
+  </a>
+  <a href="https://github.com/lyakhu955/vibecoding/network/members">
+    <img src="https://img.shields.io/github/forks/lyakhu955/vibecoding?style=for-the-badge&logo=github&color=3b82f6" alt="Forks">
+  </a>
+  <a href="https://github.com/lyakhu955/vibecoding/issues">
+    <img src="https://img.shields.io/github/issues/lyakhu955/vibecoding?style=for-the-badge&logo=github&color=ef4444" alt="Issues">
+  </a>
+  <a href="https://github.com/lyakhu955/vibecoding/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/lyakhu955/vibecoding?style=for-the-badge&logo=opensourceinitiative&color=10b981" alt="License">
+  </a>
+  <br/>
+  <!-- Badges Row 2 -->
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/GSAP-3-88CE02?style=for-the-badge&logo=greensock&logoColor=black" alt="GSAP">
+  <img src="https://img.shields.io/badge/Three.js-r184-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js">
+  <br/>
+  <!-- Badges Row 3 -->
+  <img src="https://img.shields.io/github/last-commit/lyakhu955/vibecoding?style=for-the-badge&logo=git&color=a855f7" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/lyakhu955/vibecoding?style=for-the-badge&logo=dropbox&color=64748b" alt="Repo Size">
+  <img src="https://img.shields.io/badge/PRs-welcome-10b981?style=for-the-badge&logo=githubactions&logoColor=white" alt="PRs Welcome">
 
----
+  <br/><br/>
 
-## What is this?
+  <a href="https://github.com/lyakhu955/vibecoding/generate">
+    <img src="https://img.shields.io/badge/⚡_Use_this_template-6d28d9?style=for-the-badge&logo=github&logoColor=white" height="32" alt="Use this template">
+  </a>
+  &nbsp;
+  <a href="https://github.com/lyakhu955/vibecoding/fork">
+    <img src="https://img.shields.io/badge/🔀_Fork-1e293b?style=for-the-badge&logo=github&logoColor=white" height="32" alt="Fork">
+  </a>
+  &nbsp;
+  <a href="https://github.com/lyakhu955/vibecoding/stargazers">
+    <img src="https://img.shields.io/badge/⭐_Star-facc15?style=for-the-badge&logo=github&logoColor=black" height="32" alt="Star">
+  </a>
 
-vibecoding is a production-ready starter for studios, agencies, and developers who want to ship sites that feel alive — not just functional. Every animation primitive, WebGL wrapper, and interaction hook is pre-wired so you can focus on design and content, not configuration.
+  <br/><br/>
+</div>
 
-The stack is opinionated: GSAP handles scroll-driven motion, Lenis delivers buttery smooth scrolling, React Three Fiber brings WebGL into the component model, and Framer Motion powers declarative UI transitions. Tailwind v4 and shadcn/ui cover everything else. Together, they cover 90% of what Awwwards nominees use.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-Built to work directly with the `vibecoder` Claude Code skill, which orchestrates AI-assisted component generation on top of this template.
+## 📑 Table of Contents
 
----
+- [What is this?](#-what-is-this)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Scripts](#-scripts)
+- [Customization](#-customization)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-## Stack
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-| Library | Version | Purpose |
-|---------|---------|---------|
-| Next.js | 16 (App Router) | Framework, routing, SSR/SSG |
-| React | 19 | UI runtime |
-| TypeScript | strict | Type safety across the entire codebase |
-| Tailwind CSS | v4 | Utility-first styling with CSS variable theming |
-| tw-animate-css | latest | Tailwind animation utilities |
-| shadcn/ui | latest | Accessible, unstyled component primitives |
-| GSAP + ScrollTrigger | 3 | Scroll-driven animations, timelines |
-| Lenis | latest | Hardware-accelerated smooth scroll |
-| Three.js | r168 | WebGL rendering engine |
-| @react-three/fiber | 8 | React renderer for Three.js |
-| @react-three/drei | 9 | Helpers and abstractions for R3F |
-| @react-three/postprocessing | 2 | Post-processing effects (bloom, DOF, etc.) |
-| @splinetool/react-spline | latest | Embed interactive Spline 3D scenes |
-| Framer Motion | 11 | Declarative UI animation |
-| @react-spring/web | 9 | Physics-based spring animations |
-| react-hook-form + zod | latest | Forms with schema validation |
-| next-intl | latest | Internationalization (i18n) |
-| PostHog | latest | Product analytics |
-| Resend + @react-email | latest | Transactional email |
-| sonner | latest | Toast notifications |
-| cmdk | latest | Command palette |
-| vaul | latest | Drawer component |
-| embla-carousel-react | latest | Touch-friendly carousels |
+## 🌟 What is this?
 
----
+**vibecoding** is a production-ready starter for studios, agencies, and developers who want to ship sites that feel **alive** — not just functional.
 
-## Included Components
+Every animation primitive, WebGL wrapper, and interaction hook is pre-wired so you can focus on **design and content**, not configuration. Built to work directly with the `vibecoder` Claude Code skill, which orchestrates AI-assisted component generation on top of this template.
 
-All base components live in `src/components/`. They are ready to use with zero configuration.
+> **Zero config.** Clone, install, and start building award-winning experiences in minutes.
 
-### Motion Primitives — `src/components/motion/`
+## ✨ Features
 
-| Component | What it does |
-|-----------|-------------|
-| `FadeIn` | Fades children into view on scroll. Supports directional offset (up/down/left/right), delay, and custom duration. |
-| `TextReveal` | Reveals text word-by-word with a clip-mask slide-up. Works on any heading or paragraph tag. |
-| `Magnetic` | Applies a spring-physics magnetic pull toward the cursor on hover. Ideal for buttons and nav links. |
-| `Parallax` | GSAP ScrollTrigger parallax layer. Positive speed = slower than scroll; negative = faster. |
+| 🎬 Motion Primitives | 🖱️ Interactions | 🌐 WebGL & 3D | 🧩 UI & Forms |
+|---|---|---|---|
+| **FadeIn** — scroll-triggered fade with directional offset | **Magnetic** — spring-physics cursor pull on hover | **CanvasWrapper** — optimized R3F `<Canvas>` | **LoadingScreen** — 0→100 counter + mask reveal |
+| **TextReveal** — word-by-word clip-mask slide-up | **CustomCursor** — dot + ring with mix-blend-mode | **PostFX** — EffectComposer (bloom, DOF, chromatic aberration) | **shadcn/ui** primitives — accessible, unstyled |
+| **Parallax** — GSAP ScrollTrigger speed layers | **useMousePosition** — normalized pointer tracking | **@splinetool/react-spline** — embed Spline 3D scenes | **react-hook-form + zod** — schema-validated forms |
+| **useGsapScroll** — auto-cleanup ScrollTrigger hook | **useReducedMotion** — respects `prefers-reduced-motion` | **Draco GLB compression script** — 60–80% smaller models | **sonner** — toast notifications |
+| **useScrollProgress** — 0→1 page/element progress | **Lenis** — buttery smooth scroll provider | — | **cmdk + vaul** — command palette & drawers |
+| **Framer Motion** — declarative UI transitions | **@react-spring/web** — physics-based springs | — | **embla-carousel-react** — touch carousels |
 
-### UI Components — `src/components/ui/`
+<details>
+  <summary>🚀 Click to expand full feature list</summary>
 
-| Component | What it does |
-|-----------|-------------|
-| `LoadingScreen` | Full-screen loader with a 0→100 counter animation and a mask-reveal transition. Fires an `onComplete` callback. |
-| `CustomCursor` | Dot + ring cursor with `mix-blend-mode: difference`. Expands on hoverable elements. Desktop only. |
+- **Next.js 16** App Router with Server Components by default
+- **React 19** with strict TypeScript — zero `any` tolerance
+- **Tailwind CSS v4** + `tw-animate-css` + CSS variable theming
+- **GSAP + ScrollTrigger + ScrollToPlugin** pre-registered
+- **Three.js + R3F + Drei + PostProcessing** for WebGL scenes
+- **next-intl** ready for i18n
+- **PostHog** ready for analytics
+- **Resend + @react-email** ready for transactional email
+- **FFmpeg** PowerShell script for video frame extraction
+- **@gltf-transform/cli** PowerShell script for GLB compression
+- Mobile-first with safe-area support and ≥44px touch targets
 
-### Three.js Wrappers — `src/components/three/`
+</details>
 
-| Component | What it does |
-|-----------|-------------|
-| `CanvasWrapper` | Optimized R3F `<Canvas>` with sensible defaults (dpr, shadows, tone mapping). Drop WebGL scenes inside it. |
-| `PostFX` | `EffectComposer` wrapper. Add bloom, depth of field, chromatic aberration, and other post-processing effects. |
+## 🛠 Tech Stack
 
-### Hooks — `src/hooks/`
+| Category | Technology | Version | Purpose |
+|----------|-----------|---------|---------|
+| **Framework** | Next.js | 16 (App Router) | SSR, SSG, routing, API routes |
+| **Runtime** | React | 19 | UI library |
+| **Language** | TypeScript | 5.x Strict | Type safety |
+| **Styling** | Tailwind CSS | v4 | Utility-first CSS |
+| **Animations** | GSAP + ScrollTrigger | 3.x | Scroll-driven timelines |
+| **Smooth Scroll** | Lenis | latest | Hardware-accelerated scroll |
+| **3D / WebGL** | Three.js + R3F + Drei | r184 | WebGL rendering in React |
+| **Post FX** | @react-three/postprocessing | 3.x | Bloom, DOF, chromatic aberration |
+| **UI Motion** | Framer Motion | 12.x | Declarative animations |
+| **Springs** | @react-spring/web | 10.x | Physics-based animations |
+| **Components** | shadcn/ui + Radix | latest | Accessible primitives |
+| **Forms** | react-hook-form + zod | latest | Schema validation |
+| **i18n** | next-intl | latest | Internationalization |
+| **Analytics** | PostHog | latest | Product analytics |
+| **Email** | Resend + @react-email | latest | Transactional email |
+| **Utils** | cmdk, vaul, sonner, embla | latest | Palette, drawers, toasts, carousels |
 
-| Hook | What it does |
-|------|-------------|
-| `useGsapScroll` | Sets up a GSAP ScrollTrigger inside a React effect with automatic cleanup. |
-| `useMousePosition` | Returns normalized `{ x, y }` mouse coordinates, updated on `pointermove`. |
-| `useReducedMotion` | Returns `true` when `prefers-reduced-motion: reduce` is active. Use to disable animations for accessibility. |
-| `useScrollProgress` | Returns a 0→1 scroll progress value for the page or a given element. |
+## 🚀 Quick Start
 
----
+### 1. Create from template (recommended)
 
-## Quick Start
+Click **[Use this template](https://github.com/lyakhu955/vibecoding/generate)** to create a new repository from this template.
+
+### 2. Clone & install
+
+<table>
+<tr>
+<th>npm</th>
+<th>pnpm</th>
+<th>yarn</th>
+<th>bun</th>
+</tr>
+<tr>
+<td>
 
 ```bash
-git clone https://github.com/yourusername/vibecoding.git my-project
+git clone https://github.com/lyakhu955/vibecoding.git my-project
 cd my-project
 npm install
 cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+</td>
+<td>
 
----
-
-## How to Use
-
-### Base components (always available)
-
-Import any component directly from its path:
-
-```tsx
-import { FadeIn }        from "@/components/motion/fade-in";
-import { TextReveal }    from "@/components/motion/text-reveal";
-import { Magnetic }      from "@/components/motion/magnetic";
-import { Parallax }      from "@/components/motion/parallax";
-import { LoadingScreen } from "@/components/ui/loading-screen";
-import { CustomCursor }  from "@/components/ui/custom-cursor";
-import { CanvasWrapper } from "@/components/three/canvas-wrapper";
+```bash
+git clone https://github.com/lyakhu955/vibecoding.git my-project
+cd my-project
+pnpm install
+cp .env.example .env.local
+pnpm dev
 ```
 
-### vibecoder skill (Claude Code)
+</td>
+<td>
 
-If you are using Claude Code with the `vibecoder` skill installed, you get AI-generated site sections on top of this template. The skill orchestrates design direction, component generation, motion design, UX review, and pre-deploy SEO — all in one command. See the `.claude/` folder for skill definitions.
+```bash
+git clone https://github.com/lyakhu955/vibecoding.git my-project
+cd my-project
+yarn install
+cp .env.example .env.local
+yarn dev
+```
 
-### CSS variables
+</td>
+<td>
 
-Override the brand variables in `src/app/globals.css` to match your client's brand:
+```bash
+git clone https://github.com/lyakhu955/vibecoding.git my-project
+cd my-project
+bun install
+cp .env.example .env.local
+bun run dev
+```
+
+</td>
+</tr>
+</table>
+
+Open [http://localhost:3000](http://localhost:3000) and start building. 🎉
+
+## 📁 Project Structure
+
+```
+vibecoding/
+├── 📂 src/
+│   ├── 📂 app/                    # Next.js App Router
+│   │   ├── layout.tsx            # Root layout, providers, fonts, metadata
+│   │   ├── page.tsx              # Homepage — compose sections here
+│   │   └── globals.css           # CSS variables, animations, base styles
+│   ├── 📂 components/
+│   │   ├── 📂 motion/            # FadeIn, Parallax, TextReveal, Magnetic
+│   │   ├── 📂 three/             # CanvasWrapper, PostFX
+│   │   ├── 📂 ui/                # LoadingScreen, CustomCursor, shadcn
+│   │   └── 📂 sections/          # Your page sections go here
+│   ├── 📂 hooks/                  # useGsapScroll, useMousePosition, useReducedMotion, useScrollProgress
+│   ├── 📂 lib/
+│   │   ├── gsap.ts               # GSAP + ScrollTrigger pre-registered
+│   │   └── utils.ts              # cn() helper
+│   └── 📂 providers/
+│       └── lenis.tsx             # Lenis smooth scroll provider
+├── 📂 public/
+│   └── 📂 models/                # Place .glb / .gltf files here
+├── 📂 scripts/
+│   ├── extract-frames.ps1        # Extract WebP frames from MP4 (requires FFmpeg)
+│   └── compress-glb.ps1          # Draco-compress GLB via gltf-transform
+├── 📂 .github/                    # Issue templates, PR template, CI workflow
+├── .env.example                  # Environment variable template
+├── next.config.ts                # Next.js configuration
+├── components.json               # shadcn/ui configuration
+└── package.json
+```
+
+## 🧰 Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run extract-frames` | Extract WebP frames from MP4 video (PowerShell + FFmpeg) |
+| `npm run compress-glb` | Draco-compress a GLB model (PowerShell) |
+
+## 🎨 Customization
+
+### Brand Colors
+
+Override the CSS variables in `src/app/globals.css` to match your brand:
 
 ```css
 :root {
@@ -137,74 +250,55 @@ Override the brand variables in `src/app/globals.css` to match your client's bra
 }
 ```
 
----
+### Using the vibecoder skill (Claude Code)
 
-## Project Structure
+If you are using Claude Code with the `vibecoder` skill installed, run `/vibecoder` to generate entire site sections on top of this template. The skill orchestrates:
 
-```
-vibecoding/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx          # Root layout, providers, fonts, metadata
-│   │   ├── page.tsx            # Homepage — compose sections here
-│   │   └── globals.css         # CSS variables, animations, base styles
-│   ├── components/
-│   │   ├── motion/             # FadeIn, Parallax, TextReveal, Magnetic
-│   │   ├── three/              # CanvasWrapper, PostFX
-│   │   └── ui/                 # LoadingScreen, CustomCursor, shadcn primitives
-│   ├── hooks/                  # useGsapScroll, useMousePosition, useReducedMotion, useScrollProgress
-│   ├── lib/
-│   │   ├── gsap.ts             # GSAP + ScrollTrigger pre-registered
-│   │   └── utils.ts            # cn() helper
-│   └── providers/
-│       └── lenis.tsx           # Lenis smooth scroll provider (wraps children)
-├── public/
-│   └── models/                 # Place .glb / .gltf files here
-├── scripts/
-│   ├── extract-frames.ps1      # Extract WebP frames from MP4 video
-│   └── compress-glb.ps1        # Draco-compress a GLB via gltf-transform
-├── .env.example
-└── package.json
-```
+- 🎨 Design direction (`frontend-design`)
+- 🎬 Motion & WebGL (`motion-lab`)
+- 🔍 UX review (`ui-ux-pro-max`)
+- 🛒 Payments (`commerce-kit`)
+- 📝 CMS (`cms-bridge`)
+- 🌍 SEO & ship (`seo-doctor`)
 
----
+## 🗺️ Roadmap
 
-## Scripts
+- [ ] Add Storybook for component documentation
+- [ ] Add Cypress / Playwright E2E test examples
+- [ ] Add Docker support for consistent dev environments
+- [ ] Add more animation presets (page transitions, stagger grids)
+- [ ] Add Spline scene loading optimization examples
+- [ ] Add Dark mode toggle system
+- [ ] Add more shadcn/ui blocks (dashboard, marketing, ecommerce)
 
-### Extract video frames as WebP
+See [open issues](../../issues) for proposed features and known bugs.
 
-Useful for frame-by-frame playback effects driven by scroll position.
+## 🤝 Contributing
 
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts/extract-frames.ps1 `
-  -Input "video/intro.mp4" `
-  -Output "public/frames" `
-  -Fps 30
-```
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) first.
 
-Requires FFmpeg in PATH.
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feat/amazing-feature`
+3. Commit your changes: `git commit -m 'feat: add amazing feature'`
+4. Push to the branch: `git push origin feat/amazing-feature`
+5. Open a [Pull Request](../../pulls)
 
-### Compress a GLB model (Draco)
+## 📄 License
 
-Run this before committing large 3D assets. Draco compression typically reduces file size by 60–80%.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts/compress-glb.ps1 `
-  -Input "public/models/scene.glb"
-```
-
-Requires `@gltf-transform/cli` (installed automatically as a dev dependency).
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
 
-## Powered by vibecoder
-
-This template is the foundation for the **vibecoder** Claude Code skill — an AI-assisted workflow for generating Awwwards-caliber websites inside Claude Code. The skill handles design direction, component generation, motion choreography, UX review (via `ui-ux-pro-max`), 3D/shader work (via `motion-lab`), and pre-deploy SEO (via `seo-doctor`).
-
-If you have Claude Code installed, run `/vibecoder` to start building on top of this template.
-
----
-
-## License
-
-MIT — do whatever you want with it.
+<div align="center">
+  <br/>
+  <p>
+    <b>⭐ If you like this template, give it a star!</b><br/>
+    It helps others discover it and keeps the project growing.
+  </p>
+  <a href="https://github.com/lyakhu955/vibecoding/stargazers">
+    <img src="https://img.shields.io/github/stars/lyakhu955/vibecoding?style=social&logo=github" alt="GitHub Stars">
+  </a>
+  <br/><br/>
+  <sub>Built with ❤️ by <a href="https://github.com/lyakhu955">@lyakhu955</a></sub>
+  <br/><br/>
+</div>

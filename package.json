@@ -5,6 +5,15 @@
   "keywords": ["nextjs", "react", "gsap", "lenis", "three.js", "react-three-fiber", "framer-motion", "tailwind", "shadcn", "animation", "webgl", "vibe-coding"],
   "license": "MIT",
   "private": false,
+  "author": "lyakhu955 <lyakhu955@gmail.com>",
+  "homepage": "https://github.com/lyakhu955/vibecoding#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyakhu955/vibecoding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyakhu955/vibecoding/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

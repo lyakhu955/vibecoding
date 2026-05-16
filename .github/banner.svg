@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00cc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3333ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ccff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="150" cy="80" r="120" fill="#ff00cc" opacity="0.08" />
+  <circle cx="1050" cy="320" r="150" fill="#00ccff" opacity="0.08" />
+  <text x="600" y="170" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="72" font-weight="900" fill="url(#accent)" filter="url(#glow)">vibecoding</text>
+  <text x="600" y="220" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#e2e8f0" letter-spacing="2">A MOTION-FIRST NEXT.JS TEMPLATE</text>
+  <line x1="500" y1="250" x2="700" y2="250" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+  <text x="600" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="300" fill="#94a3b8">GSAP • Three.js • R3F • Framer Motion • Tailwind v4 • shadcn/ui</text>
+</svg>
